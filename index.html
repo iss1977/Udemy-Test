@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Udemy course - Test 01 </title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+    <style>
+        .button {
+          background-color: #4CAF50;
+          border: none;
+          color: white;
+          padding: 15px 25px;
+          text-align: center;
+          font-size: 16px;
+          cursor: pointer;
+        }
+        
+        .button:hover {
+          background-color: green;
+        }
+        </style>
+
+</head>
+<body>
+    <h1>Some text in H1</h1>
+    <h2>Some text in H2</h2>
+    <div class="container">
+    <h3>Some text in H3 inside a DIV</h3>
+    <p>This is paragraph text inside a DIV</p>
+    </div>
+    <h4 id="ID_H4">This text was written in H4</h4>
+    <br>
+
+<!-- Defining FlexBoxes -->
+<div class="flex" >
+    <p> This is the Flex container where the 6 boxes are located</p>
+    <div class="box" id="box1" >Box 1</div>
+    <div class="box" id="box2" >Box 2</div>
+    <div class="box" id="box3" >Box 3</div>
+    <div class="box" id="box4" >Box 4</div>
+    <div class="box" id="box5" >Box 5</div>
+    <div class="box" id="box6" >Box 6</div>
+</div>
+
+    <h5>This text is H5</h5>
+
+    <section>
+        <h1>Level1</h1>
+        some text
+        <section>
+          <h1>Level2</h1>
+          some more text
+        </section>
+    </section>
+
+    <img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="Trulli" width="50" height="33">
+    <br>
+
+
+    <button class="button" onclick="displayResult()">Change text</button>
+
+    <h1 id="myHeader">Hello World!</h1>
+
+<script>
+function displayResult() {
+    document.getElementById("myHeader").innerHTML = "Have a nice day!";
+}
+</script>
+
+<img  src="C:\Users\ioans\Desktop\Udemy Test\Luzifer.jpg" 
+      alt="Luzicer - picture" 
+      width="500" 
+      height="500"
+      class="img-round-shadow"
+>
+
+
+</body>
+</html>
